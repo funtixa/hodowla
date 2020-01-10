@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<style>
+    body{
+        margin: 20px;
+        border: 2px solid;
+        padding: 10px
+    }
+</style>
+<div class="col-6 offset-3 mb-5 mt-5">
+    <h3>{{ title }}</h3>
+    {{ form.media }}
+    <form method="POST" action="." enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form | crispy }}
+    <button class="btn btn-primary" type="submit">Submit</button>
+
+</form>
+</div>
+
+
+{% endblock content %}

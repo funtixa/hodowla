@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<br>
+<h1 style="text-align: center;">Oto co znaleźliśmy :</h1>
+<br>
+<br>
+        {% for post in queryset %}
+        <a href="{{ post.get_absolute_url }}">
+            <div class="search-card-result">
+                <div class="">
+                    <img src="{{ post.thumbnail.url }}" alt="" class="search-post-thumbnail">
+                </div>
+                <div class="search-post-title">
+                    {{ post.title }}
+                </div>
+            </div>
+        </a>
+
+
+
+
+{% endfor %}
+{% endblock %}
+
+
