@@ -1,5 +1,5 @@
 from django.db.models import Count, Q
-from django.shortcuts import render, get_object_or_404, redirect, reverse`
+from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.template import RequestContext
 from django.core.paginator import Paginator, EmptyPage , PageNotAnInteger
 from django.views.generic import View, ListView, DetailView, CreateView, UpdateView, DeleteView
