@@ -9,8 +9,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = '4ge=ui#j#$1qc&r;1kd5f0+s!*9w88!0x)-dcnynxy5v54+4qen!d_(l$'
+# SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -170,4 +170,4 @@ AUTHENTICATION_BACKENDS = (
 SITE_ID = 1
 
 import django_heroku
-django_heroku.settings(locals())
+django_heroku.settings(locals)
