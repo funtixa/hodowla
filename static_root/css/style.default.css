@@ -2,7 +2,7 @@
 =========================================
 =========================================
 
-Bootstrap Temple Blog Template XD
+Bootstrap Temple Blog Template static_in_env
 
 =========================================
 ========================================= */
@@ -543,8 +543,6 @@ div[class*="-btn"] {
 .navbar .search-area-inner .row {
   width: 100%;
 }
-
-
 
 .navbar .search-area-inner .form-group {
   position: relative;
@@ -2223,7 +2221,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #1f2327;
-  background-color:rgb(255, 255, 255);
+  background-color:white;
 }
 
 a {
