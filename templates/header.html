@@ -33,7 +33,7 @@
             <li class="nav-item"><a href="#" class="nav-link ">Kontakt</a>
             </li>
               {% if request.user.is_staff %}
-            <li class="nav-item"><a href="{% url 'post-create' %}" class="nav-link ">Create</a>
+            <li class="nav-item"><a href="{% url 'post-create' %}" class="nav-link " style="color: blueviolet;">Utwórz Posta</a>
             </li>
             {% endif %}
             {% if not request.user.is_authenticated %}
