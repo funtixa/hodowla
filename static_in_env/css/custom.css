@@ -42,3 +42,29 @@ body{
     font-size: larger;
 }
 
+
+
+
+
+
+#navbar-container{
+    display: flex;
+    align-items: initial;
+    margin-left:1%;
+}
+
+#navbar-container{
+    margin-left: 1%;
+}
+#navbarcollapse{
+    margin-left: 100px;
+}
+
+.sentence{
+    max-width: 60%;
+    text-shadow: aqua;
+    font-size: 2em;
+}
+
+
+

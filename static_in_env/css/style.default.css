@@ -661,6 +661,8 @@ section.hero .continue i {
   }
 }
 
+
+
 /*
 * ==========================================================
 *     FEATURED POSTS SECTION
@@ -1604,14 +1606,13 @@ STYLE SWITCHER FOR DEMO
 }
 
 .navbar-brand {
-  border: black solid 1px;
   font-family: 'Pacifico', cursive;
-  /* display: inline-block; */
+  display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-right: 1rem;
-  font-size: 2.4em;
-  color: #333;
+  font-size: 3.3vw;
+  color: rgb(26, 26, 26);
   font-weight: 110;
 }
 
@@ -1621,6 +1622,7 @@ STYLE SWITCHER FOR DEMO
   line-height: 1;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  margin-left: 50px;
 }
 
 .navbar-light .navbar-brand {
