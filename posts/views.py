@@ -72,7 +72,7 @@ def blog(request):
     return render(request, 'blog.html', context)
 
 def post(request,id):
-    most_recent = Post.objects.order_by('timestamp')[:3]
+    most_recent = Post.objects.order_by('-timestamp')[:3]
     category_count = get_category_count()
     post = get_object_or_404(Post, id=id)
     if request.user.is_authenticated:
