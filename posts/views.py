@@ -51,7 +51,7 @@ def index(request):
 def blog(request):
     category_count = get_category_count()
     most_recent = Post.objects.order_by('-timestamp')[:3]
-    post_list = Post.objects.all()
+    post_list = Post.objects.order_by('-timestamp')
     paginator = Paginator(post_list, 4)
     page_request_var = 'page'
     page = request.GET.get(page_request_var)
@@ -72,7 +72,7 @@ def blog(request):
     return render(request, 'blog.html', context)
 
 def post(request,id):
-    most_recent = Post.objects.order_by('-timestamp')[:3]
+    most_recent = Post.objects.order_by('timestamp')[:3]
     category_count = get_category_count()
     post = get_object_or_404(Post, id=id)
     if request.user.is_authenticated:

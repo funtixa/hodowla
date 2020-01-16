@@ -1,4 +1,4 @@
-from tinymce import HTMLField
+from tinymce.models import HTMLField
 # from tinymce import models as tinymce_models
 from django.db import models
 from django.contrib.auth import get_user_model
