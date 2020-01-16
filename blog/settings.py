@@ -183,7 +183,7 @@ TINYMCE_DEFAULT_CONFIG = {
     'custom_undo_redo_levels': 20,
     'selector': 'textarea',
     'theme': 'modern',
-    'plugins': "table,spellchecker,paste,emotions, media, preview",
+    'plugins': "table,spellchecker,paste, media, preview",
 
     # '''
     #         textcolor save link image media preview codesample contextmenu
