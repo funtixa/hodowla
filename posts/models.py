@@ -1,11 +1,11 @@
-# from tinymce import HTMLField
-from tinymce import models as tinymce_models
+from tinymce.models import HTMLField
+# from tinymce import models as tinymce_models
 from django.db import models
 from django.contrib.auth import get_user_model
 from django.urls import reverse
 
-class MyModel(models.Model):
-    my_field = tinymce_models.HTMLField()
+# class MyModel(models.Model):
+#     my_field = tinymce_models.HTMLField()
 
 
 User = get_user_model()
@@ -45,7 +45,7 @@ class Post(models.Model):
     title = models.CharField(max_length=100)
     overview = models.TextField(max_length=170)
     timestamp = models.DateTimeField(auto_now_add=True)
-    content = MyModel.my_field
+    content = HTMLField
     # comment_count = models.IntegerField(default = 0)
     # view_count = models.IntegerField(default = 0)
     author = models.ForeignKey(Author, on_delete=models.CASCADE)

@@ -9,15 +9,15 @@ body{
     display: inline;
 }
 body{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 
-#last-posts-pic{
+/* #last-posts-pic{
     width: 30vw;
     height: auto;
-}
+} */
 
 .search-card-result {
     width: 30vw;
