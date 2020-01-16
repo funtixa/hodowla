@@ -183,7 +183,7 @@ TINYMCE_DEFAULT_CONFIG = {
     'custom_undo_redo_levels': 20,
     'selector': 'textarea',
     'theme': 'modern',
-    'plugins': "textcolor,image,media,preview"
+    'plugins': "table,spellchecker,paste,emotions, media, preview",
 
     # '''
     #         textcolor save link image media preview codesample contextmenu
@@ -202,7 +202,6 @@ TINYMCE_DEFAULT_CONFIG = {
     #         visualblocks visualchars |
     #         charmap hr pagebreak nonbreaking anchor |  code |
     #         '''
-            ,
     'contextmenu': 'formats | link image',
     'menubar': True,
     'statusbar': True,
