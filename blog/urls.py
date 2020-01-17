@@ -13,6 +13,8 @@ from posts.views import (
     post_create,
     post_update,
     post_delete,
+    auth_accounts,
+    contact
 )
 
 urlpatterns = [
@@ -25,6 +27,7 @@ urlpatterns = [
     path('post/<id>/wdaegahha_=ddcaweg23j4d$fsef/', post_update, name='post-update'),
     path('post/<id>/waegahhadcada2weg234dfsef/', post_delete, name='post-delete'),
     path('partners/', partners, name='partners'),
+    path('contact/', contact, name='contact'),
     path('tinymce/', include('tinymce.urls')),
     path('accounts/', include('allauth.urls')),
 

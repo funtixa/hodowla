@@ -1,23 +1,19 @@
 body{
-    background-color: rgb(224, 224, 224);
+    background-color: #ffffff;
 }
 .navbar navbar-expand-lg{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(255, 255, 255);
 }
 
 .blog-pic-category{
     display: inline;
 }
 body{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
-
-
-/* #last-posts-pic{
-    width: 30vw;
-    height: auto;
-} */
 
 .search-card-result {
     width: 30vw;
@@ -42,11 +38,6 @@ body{
     font-size: larger;
 }
 
-
-
-
-
-
 #navbar-container{
     display: flex;
     align-items: initial;
@@ -56,6 +47,7 @@ body{
 #navbar-container{
     margin-left: 1%;
 }
+
 #navbarcollapse{
     margin-left: 100px;
 }
@@ -65,6 +57,4 @@ body{
     text-shadow: aqua;
     font-size: 2em;
 }
-
-
 

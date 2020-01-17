@@ -145,3 +145,9 @@ def error_404_view(request, exception):
 
 def partners(request):
     return render(request, 'partners.html',{})
+
+def auth_accounts(request):
+    return redirect(reverse("/"))
+
+def contact (request):
+    return render(request, 'contact.html',{})
