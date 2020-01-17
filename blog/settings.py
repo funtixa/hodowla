@@ -182,7 +182,7 @@ TINYMCE_DEFAULT_CONFIG = {
     'cleanup_on_startup': True,
     'custom_undo_redo_levels': 20,
     'selector': 'textarea',
-    'theme': 'advanced',
+    'theme': 'modern',
     'plugins': "table,spellchecker,paste, media, preview",
 
     # '''
