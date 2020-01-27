@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ca7b4592fe9eef30c092fc160fc8d302bcee4be0c4466f44b2a1c26846c458f1"
+            "sha256": "2e03f73aa7e6c5c3274ce8bb6c80d75417496ee1c76556407bec5a115928a4a6"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -136,11 +136,11 @@
         },
         "django-tinymce4-lite": {
             "hashes": [
-                "sha256:90bef25a20f43b57040ad631605de3bcccccc7ac760c42640edbf459062af8d2",
-                "sha256:cf4a41abc704e56515eb48d9d8fd3c56ceeb9705419bdff2b8a375e2131524f8"
+                "sha256:e6776bc5b2c7237705fea18668574bc1c4dff36babc90c99a2bb7b5d636eb5e8",
+                "sha256:f0958117ddacc72596e80746729e02a727264413ab54b799f3b697a44e054e87"
             ],
             "index": "pypi",
-            "version": "==1.7.4"
+            "version": "==1.7.5"
         },
         "djangorestframework": {
             "hashes": [
@@ -224,6 +224,14 @@
             ],
             "index": "pypi",
             "version": "==0.6.1"
+        },
+        "mysql-client": {
+            "hashes": [
+                "sha256:9e378295e1a565133d4e392ad7e0104a57fcbaf06a1ac9799af8596fa5293cb3",
+                "sha256:b1d4e29bdb027d6279536b56cf4798270588c02e8f0e57696e4a87f2d16449e4"
+            ],
+            "index": "pypi",
+            "version": "==0.0.1"
         },
         "oauthlib": {
             "hashes": [
@@ -353,12 +361,36 @@
             "index": "pypi",
             "version": "==2.2.2"
         },
+        "pymysql": {
+            "hashes": [
+                "sha256:3943fbbbc1e902f41daf7f9165519f140c4451c179380677e6a848587042561a",
+                "sha256:d8c059dcd81dedb85a9f034d5e22dcb4442c0b201908bede99e306d65ea7c8e7"
+            ],
+            "index": "pypi",
+            "version": "==0.9.3"
+        },
         "pypi": {
             "hashes": [
                 "sha256:f014c87f871c2143ff613d9d13a59cc8ab8309b048754c27da8c58b21de2c10d"
             ],
             "index": "pypi",
             "version": "==2.1"
+        },
+        "python-dotenv": {
+            "hashes": [
+                "sha256:debd928b49dbc2bf68040566f55cdb3252458036464806f4094487244e2a4093",
+                "sha256:f157d71d5fec9d4bd5f51c82746b6344dffa680ee85217c123f4a0c8117c4544"
+            ],
+            "index": "pypi",
+            "version": "==0.10.3"
+        },
+        "python-memcached": {
+            "hashes": [
+                "sha256:4dac64916871bd3550263323fc2ce18e1e439080a2d5670c594cf3118d99b594",
+                "sha256:a2e28637be13ee0bf1a8b6843e7490f9456fd3f2a4cb60471733c7b5d5557e4f"
+            ],
+            "index": "pypi",
+            "version": "==1.59"
         },
         "python3-openid": {
             "hashes": [
