@@ -14,12 +14,13 @@ from posts.views import (
     post_update,
     post_delete,
     auth_accounts,
-    contact
+    contact,
+    profile
 )
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index),
+    path('', index, name='index'),
     path('blog/', blog, name='post-list'),
     path('search/', search, name='search'),
     path('waegahhadcaweg234dfsef/', post_create, name='post-create'),
@@ -29,7 +30,9 @@ urlpatterns = [
     path('partners/', partners, name='partners'),
     path('contact/', contact, name='contact'),
     path('tinymce/', include('tinymce.urls')),
+
     path('accounts/', include('allauth.urls')),
+    path('accounts/profile/', profile, name='profile'),
 
     # path('error/', page_404, name='page_404'),
 ]

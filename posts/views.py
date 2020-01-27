@@ -151,3 +151,6 @@ def auth_accounts(request):
 
 def contact (request):
     return render(request, 'contact.html',{})
+
+def profile(request):
+    return redirect(reverse('index'))
